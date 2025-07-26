@@ -33,7 +33,7 @@ export default function Home() {
   const dict: Dictionary = enDict;
   return (
     <main className="min-h-screen">
-      <Navigation dict={dict} />
+      <Navigation locale="en" dict={dict} />
 
       {/* Hero Section with Parallax */}
       <ParallaxHero dict={dict} />

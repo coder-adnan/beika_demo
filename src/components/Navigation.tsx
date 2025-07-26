@@ -3,13 +3,15 @@
 import { useState, useEffect } from "react";
 import { Menu, X, Coffee } from "lucide-react";
 import ThemeToggle from "./ThemeToggle";
+import LanguageSwitcher from "./LanguageSwitcher";
 import type { Dictionary } from "../../lib/dictionary";
 
 interface NavigationProps {
+  locale: string;
   dict: Dictionary;
 }
 
-export default function Navigation({ dict }: NavigationProps) {
+export default function Navigation({ locale, dict }: NavigationProps) {
   const [isOpen, setIsOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
 
@@ -116,7 +118,7 @@ export default function Navigation({ dict }: NavigationProps) {
             <div className="bg-white/20 dark:bg-gray-800/20 backdrop-blur-sm p-2 rounded-full border border-white/30 dark:border-gray-600/30">
               <ThemeToggle />
             </div>
-            {/* Remove LanguageSwitcher or pass a static locale if needed */}
+            <LanguageSwitcher locale={locale} />
           </div>
 
           {/* Mobile Menu Button */}
@@ -124,7 +126,7 @@ export default function Navigation({ dict }: NavigationProps) {
             <div className="bg-white/20 dark:bg-gray-800/20 backdrop-blur-sm p-2 rounded-full border border-white/30 dark:border-gray-600/30">
               <ThemeToggle />
             </div>
-            {/* Remove LanguageSwitcher or pass a static locale if needed */}
+            <LanguageSwitcher locale={locale} />
             <button
               onClick={() => setIsOpen(!isOpen)}
               className={`bg-white/20 dark:bg-gray-800/20 backdrop-blur-sm p-2 rounded-full border border-white/30 dark:border-gray-600/30 transition-all duration-300 ${

@@ -62,7 +62,7 @@ export default function Home({
 
   return (
     <main className="min-h-screen">
-      <Navigation dict={dict as unknown as Dictionary} />
+      <Navigation locale={locale} dict={dict as unknown as Dictionary} />
 
       {/* Hero Section with Parallax */}
       <ParallaxHero dict={dict as unknown as Dictionary} />

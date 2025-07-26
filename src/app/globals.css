@@ -1,26 +1,190 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* Light theme variables */
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 255, 252, 248;
+  --background-end-rgb: 255, 250, 245;
+  --primary-brown: 139, 69, 19;
+  --secondary-cream: 255, 248, 220;
+  --accent-gold: 218, 165, 32;
+
+  /* Additional light theme colors */
+  --text-primary: 17, 24, 39;
+  --text-secondary: 107, 114, 128;
+  --bg-primary: 255, 255, 255;
+  --bg-secondary: 254, 243, 199;
+  --bg-tertiary: 255, 248, 220;
+  --border-color: 229, 231, 235;
+  --card-bg: 255, 255, 255;
+  --card-border: 229, 231, 235;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+.dark {
+  /* Dark theme variables */
+  --foreground-rgb: 255, 255, 255;
+  --background-start-rgb: 17, 24, 39;
+  --background-end-rgb: 31, 41, 55;
+  --primary-brown: 245, 158, 11;
+  --secondary-cream: 120, 113, 108;
+  --accent-gold: 251, 191, 36;
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  /* Additional dark theme colors */
+  --text-primary: 243, 244, 246;
+  --text-secondary: 156, 163, 175;
+  --bg-primary: 17, 24, 39;
+  --bg-secondary: 31, 41, 55;
+  --bg-tertiary: 55, 65, 81;
+  --border-color: 75, 85, 99;
+  --card-bg: 31, 41, 55;
+  --card-border: 75, 85, 99;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Locale-specific font handling */
+html[dir="ltr"] body {
+  /* For LTR (English), prioritize Playfair Display and Dancing Script */
+  font-family: "Playfair Display", "Dancing Script", system-ui, sans-serif;
+}
+
+html[dir="rtl"] body {
+  /* For RTL (Arabic), prioritize Noto Sans Arabic */
+  font-family: "Noto Sans Arabic", system-ui, sans-serif;
+}
+
+/* Ensure Arabic text uses the correct font even in mixed content */
+html[dir="rtl"] * {
+  font-family: "Noto Sans Arabic", system-ui, sans-serif;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgb(var(--bg-secondary));
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(var(--primary-brown));
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(var(--accent-gold));
+}
+
+/* Dark mode specific styles */
+.dark .bg-white {
+  background-color: rgb(var(--card-bg));
+}
+
+.dark .text-gray-800 {
+  color: rgb(var(--text-primary));
+}
+
+.dark .text-gray-600 {
+  color: rgb(var(--text-secondary));
+}
+
+.dark .bg-amber-50 {
+  background-color: rgb(var(--bg-tertiary));
+}
+
+.dark .bg-gray-100 {
+  background-color: rgb(var(--bg-secondary));
+}
+
+.dark .border-gray-200 {
+  border-color: rgb(var(--border-color));
+}
+
+.dark .shadow-sm {
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
+}
+
+/* Smooth transitions for theme switching */
+* {
+  transition: background-color 0.3s ease, border-color 0.3s ease,
+    color 0.3s ease;
+}
+
+/* RTL Support */
+[dir="rtl"] {
+  text-align: right;
+}
+
+[dir="rtl"] .container {
+  direction: rtl;
+}
+
+/* Arabic Font Support */
+[dir="rtl"] {
+  font-family: "Noto Sans Arabic", "Noto Serif Arabic", system-ui, sans-serif;
+}
+
+/* Custom animations for parallax hero */
+@keyframes fade-in-up {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slide-in-left {
+  from {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slide-in-right {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fade-in-up 1s ease-out forwards;
+  opacity: 0;
+}
+
+.animate-slide-in-left {
+  animation: slide-in-left 1s ease-out forwards;
+  opacity: 0;
+}
+
+.animate-slide-in-right {
+  animation: slide-in-right 1s ease-out forwards;
+  opacity: 0;
 }

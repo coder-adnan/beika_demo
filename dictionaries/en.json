@@ -1,0 +1,509 @@
+{
+  "navigation": {
+    "about": "About",
+    "menu": "Menu",
+    "location": "Location",
+    "gallery": "Gallery",
+    "contact": "Contact"
+  },
+  "hero": {
+    "badge": "Women-Only Safe Space",
+    "title": "BEIKA",
+    "subtitle": "Where exceptional coffee meets a haven for women.",
+    "description": "Specialty coffee & vegan treats in the heart of Riyadh",
+    "features": {
+      "coffee": "Ethically Sourced Coffee",
+      "vegan": "Vegan-Friendly Menu",
+      "aesthetic": "Wabi-Sabi Aesthetic"
+    },
+    "cta": {
+      "menu": "View Our Menu",
+      "book": "Book a Table"
+    }
+  },
+  "about": {
+    "title": "Our Story",
+    "story1": "BEIKA is more than just a coffee shop—it's a haven for women in Riyadh. Founded with the vision of creating a safe, welcoming space where women can enjoy exceptional coffee and connect with each other.",
+    "story2": "We're committed to ethical coffee sourcing, working with local certified roasters to bring you the finest origin coffee. Our menu features plant-based options and vegan desserts, catering to health-conscious customers.",
+    "highlight": "Ethically sourced specialty coffee",
+    "special": {
+      "title": "What Makes Us Special",
+      "safe": "Women-only safe space",
+      "coffee": "Specialty coffee & ethically sourced beans",
+      "vegan": "Vegan-friendly menu with plant-based options",
+      "aesthetic": "Cozy wabi-sabi aesthetic"
+    }
+  },
+  "features": {
+    "title": "Why Choose BEIKA?",
+    "subtitle": "Experience the perfect blend of exceptional coffee, welcoming atmosphere, and women-focused hospitality",
+    "safe": {
+      "title": "Safe Space",
+      "description": "Women-only environment where you can relax, work, and connect freely"
+    },
+    "coffee": {
+      "title": "Premium Coffee",
+      "description": "Ethically sourced, expertly roasted specialty coffee from around the world"
+    },
+    "vegan": {
+      "title": "Vegan Options",
+      "description": "Delicious plant-based menu with gluten-free and vegan-friendly choices"
+    },
+    "community": {
+      "title": "Community",
+      "description": "Connect with like-minded women in a supportive and welcoming atmosphere"
+    }
+  },
+  "menu": {
+    "title": "Our Menu",
+    "items": [
+      {
+        "category": "Cakes",
+        "name": "Marble Cake",
+        "description": "Cake made from a delicious mixture of vanilla and chocolate",
+        "price": "127.0 SR"
+      },
+      {
+        "category": "Drinks",
+        "name": "Box Karkade",
+        "description": "Hibiscus flower flavored iced tea drink",
+        "price": "95.0 SR",
+        "calories": "80 Calories"
+      },
+      {
+        "category": "Drinks",
+        "name": "Ice V60",
+        "description": "Drip coffee with ice cubes",
+        "price": "25.0 SR"
+      },
+      {
+        "category": "Desserts",
+        "name": "Tiramisu",
+        "description": "Tiramisu dessert",
+        "price": "34.0 SR",
+        "calories": "380 Calories"
+      },
+      {
+        "category": "Cakes",
+        "name": "Orange Cake",
+        "description": "Orange flavored cake",
+        "price": "16.0 SR",
+        "calories": "310 Calories"
+      },
+      {
+        "category": "Cakes",
+        "name": "Pika Cake",
+        "description": "Cake with special pica mixture",
+        "price": "20.0 SR",
+        "calories": "320 Calories"
+      },
+      {
+        "category": "Cakes",
+        "name": "Dates Cake",
+        "description": "Date flavored cake",
+        "price": "18.0 SR",
+        "calories": "390 Calories"
+      },
+      {
+        "category": "Cakes",
+        "name": "Marble Cake",
+        "description": "Cake made from a delicious mixture of vanilla and chocolate",
+        "price": "19.0 SR",
+        "calories": "380 Calories"
+      },
+      {
+        "category": "Croissants",
+        "name": "Cheddar Croissant",
+        "description": "Croissant stuffed with cheddar cheese",
+        "price": "18.0 SR",
+        "calories": "290 Calories"
+      },
+      {
+        "category": "Croissants",
+        "name": "Chocolate Croissant",
+        "description": "Croissant with chocolate filling",
+        "price": "18.0 SR",
+        "calories": "490 Calories"
+      },
+      {
+        "category": "Croissants",
+        "name": "Almond Croissant",
+        "description": "Croissant stuffed with almonds",
+        "price": "20.0 SR",
+        "calories": "330 Calories"
+      },
+      {
+        "category": "Croissants",
+        "name": "Pecan Caramel Roll",
+        "description": "Croissant roll stuffed with pecan",
+        "price": "18.0 SR",
+        "calories": "300 Calories"
+      },
+      {
+        "category": "Sandwiches",
+        "name": "Grilled Halloumi Sandwich",
+        "description": "Sandwich with halloumi filling",
+        "price": "30.0 SR",
+        "calories": "520 Calories"
+      },
+      {
+        "category": "Sandwiches",
+        "name": "Tuna Sandwich",
+        "description": "Sandwich stuffed with tuna",
+        "price": "28.0 SR",
+        "calories": "480 Calories"
+      },
+      {
+        "category": "Hot Beverages",
+        "name": "Today's Coffee",
+        "description": "Coffee is prepared daily",
+        "price": "13.0 SR"
+      },
+      {
+        "category": "Hot Beverages",
+        "name": "Americano",
+        "description": "Coffee with water",
+        "price": "15.0 SR"
+      },
+      {
+        "category": "Hot Beverages",
+        "name": "Latte",
+        "description": "Espresso with milk",
+        "price": "20.0 SR"
+      },
+      {
+        "category": "Hot Beverages",
+        "name": "Cappuccino",
+        "description": "Espresso with milk and foam",
+        "price": "20.0 SR"
+      },
+      {
+        "category": "Hot Beverages",
+        "name": "Flat White",
+        "description": "Espresso with milk",
+        "price": "19.0 SR"
+      },
+      {
+        "category": "Hot Beverages",
+        "name": "Becca Latte",
+        "description": "Latte with special pica flavour",
+        "price": "23.0 SR"
+      },
+      {
+        "category": "Hot Beverages",
+        "name": "Tea",
+        "description": "Boiled tea leaves",
+        "price": "8.0 SR"
+      },
+      {
+        "category": "Hot Beverages",
+        "name": "V60",
+        "description": "Drip coffee",
+        "price": "24.0 SR"
+      },
+      {
+        "category": "Hot Beverages",
+        "name": "Matcha Latte",
+        "description": "Espresso with matcha powder",
+        "price": "25.0 SR"
+      },
+      {
+        "category": "Cold Beverages",
+        "name": "Today's Coffee",
+        "description": "Cold coffee prepared daily",
+        "price": "14.0 SR"
+      },
+      {
+        "category": "Cold Beverages",
+        "name": "Americano",
+        "description": "Cold coffee with water",
+        "price": "16.0 SR",
+        "calories": "20 Calories"
+      },
+      {
+        "category": "Cold Beverages",
+        "name": "Ice V60",
+        "description": "Drip coffee with ice cubes",
+        "price": "25.0 SR"
+      },
+      {
+        "category": "Cold Beverages",
+        "name": "Ice Latte",
+        "description": "Apricio with cold milk",
+        "price": "19.0 SR",
+        "calories": "40 Calories"
+      },
+      {
+        "category": "Cold Beverages",
+        "name": "Ice Flat White",
+        "description": "Espresso with cold milk",
+        "price": "23.0 SR"
+      },
+      {
+        "category": "Cold Beverages",
+        "name": "Ice Pica Latte",
+        "description": "Cold coffee with special becca flavour",
+        "price": "23.0 SR"
+      },
+      {
+        "category": "Cold Beverages",
+        "name": "Ice Matcha Latte",
+        "description": "Espresso with matcha powder and ice cubes",
+        "price": "27.0 SR"
+      },
+      {
+        "category": "Cold Beverages",
+        "name": "Ice Hibiscus",
+        "description": "Hibiscus leaves with ice water",
+        "price": "22.0 SR"
+      },
+      {
+        "category": "Cold Beverages",
+        "name": "Iced Peach Tea",
+        "description": "Peach tea with ice cubes",
+        "price": "22.0 SR"
+      },
+      {
+        "category": "Cold Beverages",
+        "name": "Raspberry Mojito",
+        "description": "Roseberry with 7-up and ice cubes",
+        "price": "26.0 SR"
+      },
+      {
+        "category": "Cold Beverages",
+        "name": "Water",
+        "description": "Pure and natural water.",
+        "price": "4.0 SR",
+        "calories": "1 Calories"
+      },
+      {
+        "category": "Boxes",
+        "name": "Orange Cake",
+        "description": "Orange flavored cake",
+        "price": "115.0 SR"
+      },
+      {
+        "category": "Boxes",
+        "name": "Pika Cake",
+        "description": "Cake with special pica flavour",
+        "price": "127.0 SR"
+      },
+      {
+        "category": "Boxes",
+        "name": "Date Cake",
+        "description": "Date flavored cake",
+        "price": "127.0 SR"
+      },
+      {
+        "category": "Boxes",
+        "name": "Marble Cake",
+        "description": "Cake made from a delicious mixture of vanilla and chocolate",
+        "price": "127.0 SR"
+      },
+      {
+        "category": "Boxes",
+        "name": "Becan Cheesecake",
+        "description": "Cheesecake with special pica flavour",
+        "price": "161.0 SR"
+      },
+      {
+        "category": "Boxes",
+        "name": "Raspberry Cheesecake",
+        "description": "Roseberry flavored cheesecake",
+        "price": "161.0 SR"
+      },
+      {
+        "category": "Boxes",
+        "name": "Beca Cheesecake",
+        "description": "Pecan flavored cheesecake",
+        "price": "161.0 SR"
+      },
+      {
+        "category": "Boxes",
+        "name": "Pecan Caramel Roll",
+        "description": "Croissant roll with pecan caramel flavor",
+        "price": "83.0 SR"
+      },
+      {
+        "category": "Boxes",
+        "name": "Tiramisu",
+        "description": "Italian dessert made from layers of biscuits dipped in espresso, cream and a sprinkle of cocoa powder",
+        "price": "219.0 SR"
+      },
+      {
+        "category": "Boxes",
+        "name": "Mastic Pudding",
+        "description": "Delicious and delicious dessert served in a delicious way",
+        "price": "190.0 SR"
+      },
+      {
+        "category": "Boxes",
+        "name": "Box Coffee Day",
+        "description": "Box of spicy coffee day drinks",
+        "price": "90.0 SR"
+      },
+      {
+        "category": "Boxes",
+        "name": "Box Karkade",
+        "description": "Hibiscus flower flavored iced tea drink",
+        "price": "95.0 SR",
+        "calories": "80 Calories"
+      },
+      {
+        "category": "Boxes",
+        "name": "Box Ice Tea",
+        "description": "Refreshingly cool, light tea flavor, perfect for summer",
+        "price": "95.0 SR",
+        "calories": "80 Calories"
+      },
+      {
+        "category": "Desserts",
+        "name": "Becca Cheesecake",
+        "description": "Pica flavored cheesecake",
+        "price": "26.0 SR",
+        "calories": "360 Calories"
+      },
+      {
+        "category": "Desserts",
+        "name": "Raspberry Cheesecake",
+        "description": "Roseberry flavored cheesecake",
+        "price": "26.0 SR",
+        "calories": "360 Calories"
+      },
+      {
+        "category": "Desserts",
+        "name": "Pecan Cheesecake",
+        "description": "Pecan flavored cheesecake",
+        "price": "30.0 SR",
+        "calories": "380 Calories"
+      },
+      {
+        "category": "Desserts",
+        "name": "Chocolate Chip Cookies",
+        "description": "Biscuit cookies",
+        "price": "11.0 SR",
+        "calories": "220 Calories"
+      },
+      {
+        "category": "Desserts",
+        "name": "Mini Apple Pie",
+        "description": "Pie with apple filling",
+        "price": "28.0 SR",
+        "calories": "200 Calories"
+      },
+      {
+        "category": "Desserts",
+        "name": "Tiramisu",
+        "description": "Tiramisu dessert",
+        "price": "34.0 SR",
+        "calories": "380 Calories"
+      },
+      {
+        "category": "Desserts",
+        "name": "Mastic Pudding",
+        "description": "Small size",
+        "price": "35.0 SR"
+      },
+      {
+        "category": "Desserts",
+        "name": "Coconut Cake",
+        "description": "Layers of soft cake with coconut flavor",
+        "price": "36.0 SR",
+        "calories": "78 Calories"
+      },
+      {
+        "category": "Desserts",
+        "name": "Peanut Better",
+        "description": "Peanet better",
+        "price": "14.0 SR",
+        "calories": "30 Calories"
+      },
+      {
+        "category": "Desserts",
+        "name": "Cheesecake Cinnamon",
+        "description": "Cheesecake with cinnamon and rich cinnabon-inspired layers",
+        "price": "32.0 SR",
+        "calories": "200 Calories"
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "What Our Customers Say",
+    "subtitle": "Discover why women in Riyadh choose BEIKA as their favorite coffee destination"
+  },
+  "cta": {
+    "title": "Ready to Experience BEIKA?",
+    "subtitle": "Join hundreds of women who have found their perfect coffee moment in our welcoming space. Book your table today and discover why we're Riyadh's favorite women-only coffee destination.",
+    "book": {
+      "title": "Book a Table",
+      "description": "Reserve your spot for the perfect coffee experience",
+      "button": "Reserve Now"
+    },
+    "visit": {
+      "title": "Visit Us",
+      "description": "Find us in the heart of Riyadh, easily accessible",
+      "button": "Get Directions"
+    },
+    "menu": {
+      "title": "Explore Menu",
+      "description": "Discover our specialty coffee and vegan treats",
+      "button": "View Menu"
+    },
+    "events": {
+      "title": "Special Events & Catering",
+      "description": "Hosting a women's gathering, workshop, or private event? We offer exclusive catering services and private space bookings for special occasions.",
+      "button": "Inquire About Events"
+    }
+  },
+  "hours": {
+    "title": "Hours & Location",
+    "address": "Imam Saud Bin Abdulaziz Bin Mohammed Rd, Al Mughrizat, Riyadh 12473",
+    "phone": "058 232 6617",
+    "email": "info@beika.com",
+    "schedule": {
+      "weekdays": "Monday - Thursday: 7:00 AM - 10:30 PM",
+      "weekend": "Friday - Saturday: 4:00 PM - 11:00 PM",
+      "sunday": "Sunday: 7:00 AM - 10:30 PM"
+    },
+    "gettingHere": {
+      "title": "Getting Here",
+      "parking": "• Free parking available",
+      "transport": "• Accessible by public transport",
+      "location": "• Located in a safe, well-lit area"
+    }
+  },
+  "gallery": {
+    "title": "Gallery",
+    "subtitle": "Follow us on social media for more beautiful moments",
+    "instagram": "Instagram",
+    "facebook": "Facebook"
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "subtitle": "Have questions? Want to make a reservation? We'd love to hear from you!",
+    "info": {
+      "title": "Contact Info",
+      "phone": "📞 058 232 6617",
+      "email": "📧 info@beika.com",
+      "address": "📍 Imam Saud Bin Abdulaziz Bin Mohammed Rd, Al Mughrizat, Riyadh 12473"
+    },
+    "social": {
+      "title": "Follow Us",
+      "instagram": "📸 Instagram",
+      "facebook": "📘 Facebook",
+      "tripadvisor": "🌟 TripAdvisor"
+    },
+    "events": {
+      "title": "Special Events",
+      "description": "Hosting a women's gathering or workshop? We offer private events and catering services.",
+      "button": "Inquire About Events"
+    }
+  },
+  "footer": {
+    "description": "Women-only specialty coffee & vegan treats in the heart of Riyadh",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "accessibility": "Accessibility",
+    "copyright": "© 2024 BEIKA. All rights reserved."
+  }
+}
